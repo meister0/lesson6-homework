@@ -4,7 +4,7 @@
 
 ## How to:
 
-    npm start     // Сборка development проекта и запуск сервера с HMR
+    npm run serv  // Запуск development сервера с HMR
     npm run dev   // Сборка development проекта
     npm run prod  // Сборка production проекта
 
