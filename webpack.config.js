@@ -16,15 +16,15 @@ module.exports = {
 			},
 		],
 	},
-	 devServer: {
-      contentBase: './public',
-			port: 4200,
-	    hot: true,
-    },
-	 plugins: [
-      new CleanWebpackPlugin(),
-      new HtmlWebpackPlugin({
-        template: 'src/index.html',
-      }),
-    ],
+	devServer: {
+		contentBase: './public',
+		port: 4200,
+		hot: true,
+	},
+	plugins: [
+		new CleanWebpackPlugin(),
+		new HtmlWebpackPlugin({
+			template: 'src/index.html',
+		}),
+	],
 };
